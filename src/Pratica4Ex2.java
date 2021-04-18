@@ -16,8 +16,8 @@ public class Pratica4Ex2 {
 
         value[0][0] = scanner.nextDouble();
         scanner.nextLine();
-        if(value[0][0] == 0){
-            System.err.println("Valor Igual a 0");
+        if(value[0][0] <= 0){
+            System.err.println("Valor Igual ou menor a 0");
             System.exit(1);
         }
         value[0][1] = scanner.nextDouble();
@@ -27,8 +27,8 @@ public class Pratica4Ex2 {
 
         value[1][0] = scanner.nextDouble();
         scanner.nextLine();
-        if(value[1][0] == 0){
-            System.err.println("Valor Igual a 0");
+        if(value[1][0] <= 0){
+            System.err.println("Valor Igual ou menor a 0");
             System.exit(1);
         }
 
@@ -39,8 +39,8 @@ public class Pratica4Ex2 {
 
         value[2][0] = scanner.nextDouble();
         scanner.nextLine();
-        if(value[2][0] == 0){
-            System.err.println("Valor Igual a 0");
+        if(value[2][0] <= 0){
+            System.err.println("Valor Igual ou menor a 0");
             System.exit(1);
         }
 
@@ -51,8 +51,8 @@ public class Pratica4Ex2 {
 
         value[3][0] = scanner.nextDouble();
         scanner.nextLine();
-        if(value[3][0] == 0){
-            System.err.println("Valor Igual a 0");
+        if(value[3][0] <= 0){
+            System.err.println("Valor Igual ou menor a 0");
             System.exit(1);
         }
 
@@ -63,8 +63,8 @@ public class Pratica4Ex2 {
 
         value[4][0] = scanner.nextDouble();
         scanner.nextLine();
-        if(value[4][0] == 0){
-            System.err.println("Valor Igual a 0");
+        if(value[4][0] <= 0){
+            System.err.println("Valor Igual ou menor a 0");
             System.exit(1);
         }
 
